@@ -1,0 +1,35 @@
+# GraphStream-IDS — core dependencies
+# Install PyTorch first (CPU or CUDA build depending on your Colab runtime),
+# then PyTorch Geometric per their official install matrix (version-sensitive),
+# before installing the rest of this file.
+
+# Core
+numpy
+pandas
+scikit-learn
+xgboost
+
+# Graph learning (install PyTorch + PyG separately per official instructions)
+networkx
+torch-geometric
+
+# Continual learning / drift detection
+river
+
+# Experiment tracking
+mlflow
+
+# Visualization / demo
+matplotlib
+seaborn
+streamlit
+
+# Hyperparameter tuning
+optuna
+
+# Data handling at scale (optional, only if CSE-CIC-IDS2018 exceeds RAM)
+pyarrow
+
+# Utilities
+pyyaml
+tqdm
